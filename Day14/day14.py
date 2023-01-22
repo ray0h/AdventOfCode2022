@@ -123,6 +123,8 @@
 # ~..........
 # Using your scan, simulate the falling sand. How many units of sand come to rest before sand starts flowing into the abyss below?
 
+# peeked here for help with an error that led me to figure out a typo.
+
 def parse_bounds_from_line(line:str):
     str_coords = line.split(' -> ')
     coords = [sc.split(',') for sc in str_coords]
